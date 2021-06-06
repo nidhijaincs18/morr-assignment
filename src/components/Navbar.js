@@ -6,7 +6,7 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav>
-                    <Link to="/" exact>
+                    <Link to="/" exact="true">
                         <p className="navLogo">DEMO Streaming</p>
                     </Link>
                     <ul>

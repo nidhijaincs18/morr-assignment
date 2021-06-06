@@ -9,7 +9,7 @@ export default class Home extends Component {
                     <p className="popular">Popular Titles</p>
                 </header>
                 <div className="titles">
-                    <Link to="/Series" exact>
+                    <Link to="/Series" exact="true">
                         <div className="tile">
                             <div className="box">
                                 <img src={shutterImage} alt="image1" />
@@ -18,7 +18,7 @@ export default class Home extends Component {
                             <p className="tileP">Popular Series</p>
                         </div>
                     </Link>
-                    <Link to="/Movies" exact>
+                    <Link to="/Movies" exact="true">
                         <div className="tile">
                             <div className="box">
                                 <img src={shutterImage} alt="image2" />
