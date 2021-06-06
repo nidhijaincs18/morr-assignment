@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation of Dependencies
+
+In this project, you first need to install the dependencies:
+
+### `npm install react-router-dom`
+
+### `npm install axios`
+
 ## Available Scripts
 
 In the project directory, you can run:
