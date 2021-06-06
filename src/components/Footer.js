@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
-// import apple from '../images/download-on-the-app-store-logo-png-23.png';
-// import google from '../images/get-it-on-google-play-google-play-badge-png-logos-23.png';
-// import microsoft from '../images/5a902db47f96951c82922873.png';
-import microsoft  from "../images/microsoft.png";
-import appStore from "../images/appStore.png";
-import googlePlay from "../images/googlePlay.png";
+import microsoft  from "../Assets/images/microsoft.png";
+import appStore from "../Assets/images/appStore.png";
+import googlePlay from "../Assets/images/googlePlay.png";
 export default class Footer extends Component {
     render() {
         return (

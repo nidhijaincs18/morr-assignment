@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import shutterImage from '../images/104-1047791_action-clipart-video-production-graphic-design-removebg-preview.png'
+import shutterImage from '../Assets/images/104-1047791_action-clipart-video-production-graphic-design-removebg-preview.png'
 import {Link} from 'react-router-dom'
 export default class Home extends Component {
     render() {
