@@ -30,7 +30,6 @@ const Series = ({data:  { entries}}) => {
 
             <div className="titles seriestitle">
             {
-                
                 entries.map((entry) => {
                     if(entry.releaseYear>=2010 ){
                         if(entry.programType==='series'){
