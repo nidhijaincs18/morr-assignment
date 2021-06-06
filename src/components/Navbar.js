@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import './style.css'
-
+import {Link} from 'react-router-dom'
 
 export default class Navbar extends Component {
     render() {
         return (
             <div>
                 <nav>
-                    <p className="navLogo">DEMO Streaming</p>
+                    <Link to="/" exact>
+                        <p className="navLogo">DEMO Streaming</p>
+                    </Link>
                     <ul>
                         <li className="login">Log in</li>
                         <li className="trial">Start your free trial</li>

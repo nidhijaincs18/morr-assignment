@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './style.css'
 
 
 export default class Movies extends Component {
@@ -7,7 +6,7 @@ export default class Movies extends Component {
         return (
             <div>
                 <header>
-                    <p className="popular">Popular Titles</p>
+                    <p className="popular">Popular Movies</p>
                 </header>
                 
             </div>
