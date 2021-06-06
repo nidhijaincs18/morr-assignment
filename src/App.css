@@ -76,8 +76,9 @@ header {
 .titles {
     padding: 40px 140px;
     display: flex;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     flex-wrap: wrap;
+    min-height: 60.6vh;
 }
 
 .tile {
@@ -105,10 +106,6 @@ header {
     font-size: 1.6em;
     font-weight: 600;
     color: white;
-}
-
-.tile {
-    margin-bottom: 125px;
 }
 
 .tileP {
