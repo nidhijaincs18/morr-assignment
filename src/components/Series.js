@@ -8,15 +8,15 @@ const Series = ({data:  { entries}}) => {
     if(!entries){
         return <Loading/>;
     }
-    function compare( a, b ) {
-        if ( a.title < b.title ){
+    entries.sort(function( a, b ) {
+        if ( a.title.toLowerCase() < b.title.toLowerCase() ){
           return -1;
         }
-        if ( a.title > b.title ){
+        if ( a.title.toLowerCase() > b.title.toLowerCase() ){
           return 1;
         }
         return 0;
-      }
+      });
 
  
    
@@ -30,6 +30,7 @@ const Series = ({data:  { entries}}) => {
 
             <div className="titles seriestitle">
             {
+                
                 entries.map((entry) => {
                     if(entry.releaseYear>=2010 ){
                         if(entry.programType==='series'){
