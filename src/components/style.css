@@ -1,0 +1,57 @@
+/* Navbar */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 140px;
+    background-color: #185adb;
+    box-shadow: inset 0 0 5px #0e42aa;
+    color: white;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+a:nth-child(1) {
+    margin-left: 0;
+}
+
+.navLogo {
+    font-size: 2em;
+}
+
+.login {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.trial {
+    padding: 7px 10px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px black;
+    transition: 0.3s;
+}
+
+.trial:hover {
+    background-color: black;
+    cursor: pointer;
+}
